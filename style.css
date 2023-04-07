@@ -1,0 +1,70 @@
+  body{
+    background: url(assests/pexels-maxyne-barcel-10402282\ 1.png) no-repeat center center fixed ;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+    color: rgba(233, 226, 39, 0.996);
+  }
+   /* ##########    Navigation   ######### */
+  nav ul{
+     display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    gap: 8%;
+    margin-right: 13%; 
+}
+.navbar{
+    color: rgba(241, 233, 17, 0.996);
+    font-size: 20px;
+}
+ a{
+     text-decoration: none; 
+  }
+ nav ul button{
+    height: 2rem;
+    width: 5rem;
+    margin-left: auto;
+    position: absolute;
+    margin-left: 90%;
+    background-color:rgb(242, 62, 95);
+    color: white;
+    border: none;
+    font-family: 'Red Rose', cursive;
+  }
+  @media (max-width:720px) {
+    nav ul button {
+      margin-left: 71%;
+    }
+    .navbar{
+      font-size: 17px;
+    }
+    img{
+      height: 2rem;
+    }
+  }
+  img{
+    height: 3rem;
+    float: left; 
+  }
+  /* ######## Section ######## */
+section h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 4rem;
+    color: rgba(224, 218, 40, 0.996);
+}
+section button{
+    background-color:rgb(242, 62, 95);
+    margin-left: 46%;
+    height: 2.5rem;
+    width: 8rem;
+    color: white;
+    border:none;
+    font-family: 'Red Rose', cursive;
+}
+section img{
+    float: right;
+    height: 7rem;
+}
